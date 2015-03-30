@@ -6,6 +6,7 @@ module.exports = function(logger) {
 
     logger.addRewriter(function(level, msg, meta) {
         meta['requestId'] = edc.getRequestId();
+        meta['sessionId'] = edc.getSessionId();
         return meta;
     }); 
 };
