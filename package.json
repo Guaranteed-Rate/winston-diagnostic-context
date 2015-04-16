@@ -4,12 +4,18 @@
   "description": "",
   "main": "wdc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "winston": "~0.9.0",
-    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context.git"
+    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context.git#v1.1"
+  },
+  "devDependencies": {
+    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context#v1.1",
+    "tap": "~0.7.1",
+    "express": "~4.12.3",
+    "request": "~2.55.0"
   }
 }
