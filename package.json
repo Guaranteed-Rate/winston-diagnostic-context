@@ -1,21 +1,22 @@
 {
   "name": "winston-diagnostic-context",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "wdc.js",
   "scripts": {
     "test": "tap test/*.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "winston": "~0.9.0",
-    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context.git#v1.1"
+    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context.git#v1.2"
   },
   "devDependencies": {
-    "express-diagnostic-context": "git+https://github.com/Guaranteed-Rate/express-diagnostic-context#v1.1",
     "tap": "~0.7.1",
     "express": "~4.12.3",
     "request": "~2.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guaranteed-Rate/winston-diagnostic-context.git"
   }
 }
