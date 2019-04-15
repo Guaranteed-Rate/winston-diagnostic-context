@@ -1,3 +1,6 @@
+# DON'T USE, OUT OF DATE VERSION OF REQUEST WITH VULNERABILITY
+
+
 ## Winston Diagnostic Context
 
 This package configures Winston to include the requestId and sessionId into every log entry.
